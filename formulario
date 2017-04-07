@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>formulario</title>
+</head>
+<body>
+<h1>Formulario de registro - Mi web</h1>
+<form action="" method="get">
+	<!--<p><input type="text"> Nombre</input></p>-->
+	<!--<p><input type="text" name="Nombre"> Nombre</input></p>-->
+	<p><input type="text" maxlength="50" name="nombre"></input> Nombre(s)</p>
+	<p><input type="text" maxlength="50" name="apellidop"></input> Apellido Paterno</p>
+	<p><input type="text" maxlength="50" name="apellidom"></input> Apellido Materno</p>
+	<p>    
+	<fieldset>
+        <legend>Sexo</legend>
+        <label>
+            <input type="radio" name="sexo" value="hombre"></input> H
+        </label>
+        <label>
+            <input type="radio" name="sexo" value="mujer"></input> M
+        </label>
+    </fieldset>
+    </p>
+    <p><input type="text" name="email"></input> e-mail</p>
+    <p><label><input type="checkbox" name="newsletter" value="checkbox1" checked></input> "Deseo recibir informacion sobre novedades y ofertas."</label></p>
+    <p><label><input type="checkbox" name="declaracion" value="checkbox2"></input> "Declaro haber leido y aceptar las condiciones generales del programa y la normativa sobre proteccion de datos."</label></p>
+    <p><input type="submit" name="enviar"></input></p>
+</form>
+</body>
+</html>
