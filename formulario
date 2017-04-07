@@ -8,12 +8,12 @@
 <form action="" method="get">
 	<!--<p><input type="text"> Nombre</input></p>-->
 	<!--<p><input type="text" name="Nombre"> Nombre</input></p>-->
-	<p><input type="text" maxlength="50" name="nombre"></input> Nombre(s)</p>
-	<p><input type="text" maxlength="50" name="apellidop"></input> Apellido Paterno</p>
-	<p><input type="text" maxlength="50" name="apellidom"></input> Apellido Materno</p>
+	<p>Nombre(s): <input type="text" maxlength="50" name="nombre"></input></p>
+	<p>Apellido Paterno: <input type="text" maxlength="50" name="apellidop"></input></p>
+	<p>Apellido Materno: <input type="text" maxlength="50" name="apellidom"></input></p>
 	<p>    
 	<fieldset>
-        <legend>Sexo</legend>
+        <legend>Sexo: </legend>
         <label>
             <input type="radio" name="sexo" value="hombre"></input> H
         </label>
