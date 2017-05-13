@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Formulario de prueba de HTML5</title>
+</head>
+<body>
+<form action="" method="get">
+	<p>
+		Nombre:
+		<input type="text" name="name control" autofocus="" autocomplete="" required="">
+	</p>
+	<p>
+		E-mail:
+		<input type="e-mail" name="e-mail control" required="">
+	</p>
+	<p>
+		URL:
+		<input type="url" name="url control" placeholder="Escribe la URL de tu página web personal">
+	</p>
+	<p>
+		Fecha:
+		<input type="date" name="date control">
+	</p>
+	<p>
+		Tiempo:
+		<input type="time" name="time control">
+	</p>
+	<p>
+		Fecha y hora:
+		<input type="datetime" name="datetime control">
+	</p>
+	<p>
+		Mes:
+		<input type="month" name="month control">
+	</p>
+	<p>
+		Semana:
+		<input type="week" name="week control">
+	</p>
+	<p>
+		Número:
+		<input type="number" name="number control" min="-10" max="10" value="0">
+	</p>
+	<p>
+		Teléfono:
+		<input type="tel" name="tel control">
+	</p>
+	<p>
+		Término de busqueda:
+		<input type="search" name="search control">
+	</p>
+	<p>
+		Color favorito:
+		<input type="color" name="color control">
+	</p>
+	<p>
+		<input type="submit" value="Enviar">
+	</p>
+</form>
+</body>
+</html>
