@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>estilo de lista en css</title>
+    <link rel="stylesheet" href="estilo de una lista.css" type="text/css">
+  </head>
+  <body>
+    <p>Lista sin elemento gráfico:</p>
+    <ul class="sin">
+      <li>Elemento 1</li>
+      <li>Elemento 2</li>
+      <li>Elemento 3</li>
+    </ul>
+    <p>Lista con círculos:</p>
+    <ul class="circulos">
+      <li>Elemento 1</li>
+      <li>Elemento 2</li>
+      <li>Elemento 3</li>
+    </ul>
+    <p>Lista con cuadrados:</p>
+    <ul class="cuadrados">
+      <li>Elemento 1</li>
+      <li>Elemento 2</li>
+      <li>Elemento 3</li>
+    </ul>
+    <p>Lista con números romanos:</p>
+    <ul class="romanos">
+      <li>Elemento 1</li>
+      <li>Elemento 2</li>
+      <li>Elemento 3</li>
+    </ul>
+    <p>Lista con letras griegas:</p>
+    <ul class="griegas">
+      <li>Elemento 1</li>
+      <li>Elemento 2</li>
+      <li>Elemento 3</li>
+    </ul>
+  </body>
+</html>
