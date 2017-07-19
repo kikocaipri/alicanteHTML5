@@ -1,0 +1,25 @@
+*{
+  font-family: Arial,Verdana,sans-serif;
+}
+h1{
+  text-transform: uppercase;
+  font-family: Georgia,Times,sans-serif;
+  font-size: 32px;
+  font-variant: small-caps;
+}
+h1::first-letter{
+    font-size: 150%;
+}
+h2{
+  text-transform: uppercase;
+  font-family: Georgia,sans-serif;
+  font-size: 24px;
+  font-style: italic;
+  font-variant: small-caps;
+}
+h2::first-letter{
+  font-size: 150%;
+}
+span{
+  font-weight: bold;
+}
